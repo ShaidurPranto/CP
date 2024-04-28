@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-const long long M = 1^18 + 7;
+const long long M = 1e18 + 7;
 
 long long binMul(long long a , long long b){
     long long answer = 0;
@@ -17,6 +17,6 @@ long long binMul(long long a , long long b){
 
 int main()
 {
-    
+    cout<<binMul(30,22)<<endl;
     return 0;
 }
