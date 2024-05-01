@@ -3,6 +3,9 @@ using namespace std;
 
 const long long M = 1e18 + 7;
 
+//this assumes that a , b , c are <= 1e18 
+
+// O(log(b) * log(b))
 long long largeBinExp(long long a , long long b){
     long long ans = 1;
     while(b){

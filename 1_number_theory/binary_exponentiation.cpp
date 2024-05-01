@@ -3,6 +3,9 @@ using namespace std;
 
 const int M = 1e9 + 7;
 
+//assuming a,b,M <= 1e9 ;
+
+// O(log(b))
 int binExp(int a,int b){
     int answer = 1;
     while(b){
